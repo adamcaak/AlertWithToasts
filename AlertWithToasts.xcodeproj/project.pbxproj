@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB74B6272E493A3D00879960 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = BB74B6262E493A3D00879960 /* ToastUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BB74B6172E49391F00879960 /* AlertWithToasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertWithToasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB74B6272E493A3D00879960 /* ToastUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = AlertWithToasts;
 			packageProductDependencies = (
+				BB74B6262E493A3D00879960 /* ToastUI */,
 			);
 			productName = AlertWithToasts;
 			productReference = BB74B6172E49391F00879960 /* AlertWithToasts.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = BB74B60E2E49391F00879960;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BB74B6252E493A3D00879960 /* XCRemoteSwiftPackageReference "ToastUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BB74B6182E49391F00879960 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB74B6252E493A3D00879960 /* XCRemoteSwiftPackageReference "ToastUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quanshousio/ToastUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB74B6262E493A3D00879960 /* ToastUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB74B6252E493A3D00879960 /* XCRemoteSwiftPackageReference "ToastUI" */;
+			productName = ToastUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB74B60F2E49391F00879960 /* Project object */;
 }
